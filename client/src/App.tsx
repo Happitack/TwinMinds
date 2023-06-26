@@ -1,27 +1,17 @@
-import logo from './assets/logo.svg';
+import { AboutUs, Film2, Footer, Gallery, Paranoia, Trailer} from './container';
+import { Navbar } from './components';
 import './App.scss';
-// import { MySharedInterface } from "@shared/shared"; // Shared code between Client and Server
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Ioncore React Template</p>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Navbar />
+    <AboutUs />
+    <Paranoia />
+    <Trailer />
+    <Film2 />
+    <Gallery />
+    <Footer />
+  </div>
+);
 
 export default App;

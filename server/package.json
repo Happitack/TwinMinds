@@ -10,7 +10,7 @@
     "build-server": "tsc --outDir build"
   },
   "keywords": [],
-  "author": "Lucasion",
+  "author": "TwinMinds",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.14",
