@@ -1,5 +1,4 @@
-# Ioncore Project Template
-This is a template for an Ioncore project. It contains a TypeScript full-stack application, with a server in [Nodejs](https://nodejs.org/en) and a client in [React](https://react.dev/).
+# Twin Minds
 
 ## Getting Started
 
