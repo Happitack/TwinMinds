@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "./client",
+			"name": "Client"
+		},
+		{
+			"path": "./server",
+			"name": "Server"
+		},
+		{
+			"path": "./shared",
+			"name": "Shared (Types only)"
+		},
+		{
+			"path": ".",
+			"name": "Root"
+		}
+	],
+	"settings": {
+		"terminal.integrated.splitCwd": "workspaceRoot"
+	},
+	"extensions": {
+		"recommendations": [
+			"SanaAjani.taskrunnercode"
+		]
+	}
+}
